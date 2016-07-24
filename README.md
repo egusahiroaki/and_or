@@ -8,17 +8,9 @@ Add this line to your application's Gemfile:
 
     gem 'and_or'
 
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install and_or
-
 ## Usage
 
-引数の型は配列。
+The arguments is string or array.
 
 [A B, C] => (A and B) or C  
 [A B, C D, E] => (A adn B) or (C and D) or E  
