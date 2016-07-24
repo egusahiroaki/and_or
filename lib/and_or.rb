@@ -2,7 +2,7 @@ require "and_or/version"
 
 module AndOr
   class RegExp
-    def initialize
+    def initialize(value)
       if value.kind_of? Array
         @regexp = value.split(",").dup
       else
